@@ -61,3 +61,36 @@ name.length > 7
     :alert('Your name is short')
 
 // 11
+let firstName = 'Oliwier'
+let lastName = 'Trela'
+firstName.length > lastName.length
+    ?console.log('Your first name, '+firstName+' is longer than your family name, '+lastName)
+    :console.log('Your first name, '+firstName+' is shorter than your family name, '+lastName)
+
+// 12
+let myAge = 10
+let yourAge = 25
+myAge > yourAge
+    ?console.log('I am '+(myAge-yourAge)+' years older than you.')
+    :console.log('I am '+(yourAge-myAge)+' years younger than you.')
+
+// 13
+let yearBorn = prompt('Enter birth year: ')
+let dateNow = new Date()
+let yearsOld = dateNow.getFullYear() - yearBorn
+let to18 = 18 - yearsOld
+yearsOld >= 18
+    ?alert('You are '+yearsOld+'. You are old enough to drive.')
+    :alert('You are '+yearsOld+'. You will be allowed to drive after '+to18+' years.')
+
+// 14
+let yearsOldAsk = prompt('Enter number of years you live:')
+let seconds = yearsOldAsk * 365.25 * 24 * 60 * 60
+alert('You lived '+seconds+' seconds.')
+
+// 15
+let currentDate = new Date()
+console.log(currentDate.getFullYear()+'-'+currentDate.getMonth())
+1. YYYY-MM-DD HH:mm
+2. DD-MM-YYYY HH:mm
+3. DD/MM/YYYY HH:mm
