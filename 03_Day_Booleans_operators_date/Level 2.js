@@ -90,7 +90,6 @@ alert('You lived '+seconds+' seconds.')
 
 // 15
 let currentDate = new Date()
-console.log(currentDate.getFullYear()+'-'+currentDate.getMonth())
-1. YYYY-MM-DD HH:mm
-2. DD-MM-YYYY HH:mm
-3. DD/MM/YYYY HH:mm
+console.log(currentDate.getFullYear()+'-'+(currentDate.getMonth()+1)+'-'+currentDate.getDate()+' '+currentDate.getHours()+':'+currentDate.getMinutes())
+console.log(currentDate.getDate() + '-' + (currentDate.getMonth() + 1) + '-' + currentDate.getFullYear() +' ' + currentDate.getHours() + ':' + currentDate.getMinutes())
+console.log(currentDate.getDate() + '/' + (currentDate.getMonth() + 1) + '/' + currentDate.getFullYear() +' ' + currentDate.getHours() + ':' + currentDate.getMinutes())
