@@ -1,5 +1,5 @@
 // 03_Day_Booleans_operators_date
-// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/03_Day_Booleans_operators_date/
+// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/03_Day_Booleans_operators_date/03_booleans_operators_date.md
 // ----------------------------------------------------------------
 
 // 1
@@ -87,9 +87,9 @@ console.log(!('dragon'.includes('on') && 'python'.includes('on')))
 // 7
 let time = new Date()
 console.log(time.getFullYear())
-console.log(time.getMonth()+1)
+console.log(time.getMonth() + 1)
 console.log(time)
 console.log(time.getDate())
 console.log(time.getHours())
 console.log(time.getMinutes())
-console.log(Math.round(time.getTime()/1000))
+console.log(Math.round(time.getTime() / 1000))

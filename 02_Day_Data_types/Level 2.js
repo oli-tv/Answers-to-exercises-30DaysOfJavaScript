@@ -1,6 +1,7 @@
-// 01_Introduction
-// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/01_Introduction/
+// 02_day_data_types
+// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/02_Day_Data_types/02_day_data_types.md
 // ----------------------------------------------------------------
+
 // 1
 console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
 // 2
